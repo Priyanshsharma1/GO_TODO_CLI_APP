@@ -16,11 +16,7 @@ const (
 	todoFile = ".todos.json"
 )
 
-func Hello() string {
-	return "Hello, World"
-}
 func main() {
-	fmt.Println(Hello())
 	add := flag.Bool("add", false, "Add a new todo")
 	complete := flag.Int("complete", 0, "Mark a todo as completed")
 	delete := flag.Int("delete", 0, "Delete a todo")
