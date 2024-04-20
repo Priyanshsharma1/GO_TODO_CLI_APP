@@ -1,1 +1,2 @@
-# Simple CLI Todo App In Go
+# Simple CLI Todo App In Go with testing 
+
